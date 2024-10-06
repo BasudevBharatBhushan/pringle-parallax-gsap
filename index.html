@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pringles Flavors with Parallax Effect</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <img src="assets/image 6.png" alt="Pringles Logo" class="logo">
+    <div class="menu">☰</div>
+
+    <div id="container" class="scroll-container">
+        <div class="description panel panel-1" style="background-image: url(assets/bg-1.png);">
+
+            <div class="background">
+                <img src="assets/image 20.png" alt="Grass" class="grass">
+
+                <div class=" table-container section-1-fix-component fix-container">
+                    <div class="pringles-container ">
+                        <img src="assets/image 2.png" alt="Cheddar & Sour Cream Pringles" class="pringles-can"
+                            id="pringle-1">
+                        <img src="assets/image 3.png" alt="Sour Cream & Onion Pringles" class="pringles-can"
+                            id="pringle-2">
+                        <img src="assets/image 11.png" alt="Cheddar Cheese Pringles" class="pringles-can"
+                            id="pringle-3">
+                    </div>
+                    <div class="table-spices">
+                        <img src="assets/image 8.png" alt="Onion" class="onion table-spice">
+                        <img src="assets/image 7.png" alt="Chips" class="chips table-spice">
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+        <section class="panel panel-2">
+
+            <div class="section-2-fix-component w-full h-full fix-container pringle-container"
+                style="height: 100vh;background-image: url(assets/bg-2.png);">
+                <img class="pringle-display z-index-2" src="assets/image 3.png" alt="Sour Cream & Onion Pringles">
+                <h1 class="pringle-label display-absolute  absolute-position-translate-center w-full text-center"
+                    style="color:#62b659 ;">
+                    Sour cream &
+                    onion</h1>
+            </div>
+            <div class="pringle-component panel">
+                <img src="assets/image 12.png" alt="Chips" class=" sprinked-chips">
+            </div>
+        </section>
+
+
+        <!-- <div class="pringle-component panel z-index-1">
+            <img src="assets/image 12.png" alt="Chips" class=" sprinked-chips">
+        </div> -->
+
+        <section class="panel panel-3">
+
+            <div class="section-3-fix-component w-full h-full fix-container pringle-container"
+                style="background-image: url(assets/bg-3.png);">
+                <img class="pringle-display z-index-2" src="assets/image 2.png" alt="Sour Cream & Onion Pringles">
+                <h1 class="pringle-label display-absolute  absolute-position-translate-center w-full text-center"
+                    style="color:#29c0e3 ;">
+                    Cheddar Cream & Onion</h1>
+            </div>
+
+            <div class="pringle-component panel">
+                <img src="assets/image 12.png" alt="Chips" class=" sprinked-chips">
+            </div>
+
+        </section>
+
+
+
+
+        <section class="panel panel-4">
+
+            <div class="section-4-fix-component w-full h-full fix-container pringle-container"
+                style="background-image: url(assets/bg-4.png);">
+                <img class="pringle-display z-index-2" src="assets/image 11.png" alt="Sour Cream & Onion Pringles">
+                <h1 class="pringle-label display-absolute  absolute-position-translate-center w-full text-center"
+                    style="color:#eb972c ;">
+                    Cheddar & Cheese</h1>
+            </div>
+            <div class="pringle-component panel">
+                <img src="assets/image 12.png" alt="Chips" class=" sprinked-chips">
+            </div>
+
+        </section>
+
+
+
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
